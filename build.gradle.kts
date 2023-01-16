@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "me.enderkill98.testserverstuff"
-version = "0.1.0-SNAPSHOT"
+version = "0.1.0"
 
 repositories {
     mavenCentral()
