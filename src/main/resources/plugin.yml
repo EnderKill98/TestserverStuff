@@ -1,0 +1,13 @@
+name: TestserverStuff
+author: EnderKill98
+version: 0.1.0
+description: Plugin to debug stuff to help solving / testing LO challenges
+
+api-version: 1.19
+main: me.enderkill98.testserverstuff.TestserverStuff
+
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.21
+
+commands:
+  settings: {}
