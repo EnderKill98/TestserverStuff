@@ -2,11 +2,10 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     kotlin("jvm") version "1.7.21"
-    id("com.github.johnrengelman.shadow") version "7.1.2"
 }
 
 group = "me.enderkill98.testserverstuff"
-version = "1.0-SNAPSHOT"
+version = "0.1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
