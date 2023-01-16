@@ -31,7 +31,7 @@ class SettingsCommand: CommandExecutor {
             }
         }
 
-        if(!args.isEmpty() && !foundSetting) {
+        if(args.isNotEmpty() && !foundSetting) {
             sender.sendMessage(TestserverStuff.PREFIX + "§cUnknown argument / setting!");
             return false;
         }

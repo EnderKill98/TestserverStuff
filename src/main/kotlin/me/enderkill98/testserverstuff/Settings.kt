@@ -16,6 +16,8 @@ class Settings {
         fun getBool(player: Player, setting: String): Boolean {
             return SETTINGS.getOrDefault(toKey(player, setting), "false") == "true"
         }
+
+        // TODO: Cleanup old entries
     }
 
 }
